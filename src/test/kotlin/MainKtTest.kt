@@ -107,6 +107,6 @@ class MainKtTest {
     fun calcPaymentCommission_defaultParams() {
         val currentPayment = 10_00L
         val result = calcPaymentCommission(currentPayment = currentPayment)
-        assertEquals(0L, result)
+        assertEquals(1L, result)
     }
 }
