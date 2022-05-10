@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'jacoco'
+}
+
+group 'ru.netelogy'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testImplementation group: 'org.scalatestplus', name: 'junit-4-13_2.13', version: '3.3.0.0-SNAP3'
+}
